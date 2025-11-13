@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Choice Gadgets: Sustainable Tech Reviews</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #38bdf8; /* Sky 400 */
+            --color-secondary: #059669; /* Emerald 600 */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Slate 50 */
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.5), 0 4px 6px -2px rgba(5, 150, 105, 0.05);
+        }
+        /* Custom scroll behavior for smoother page navigation */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo/Brand Name -->
+                <a href="#top" class="text-2xl font-bold text-green-700 tracking-tight">
+                    <span class="text-sky-500">Eco</span><span class="text-emerald-600">Choice</span>
+                </a>
+                
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#products" class="text-gray-600 hover:text-emerald-600 transition duration-150">Top Picks</a>
+                    <a href="#reviews" class="text-gray-600 hover:text-emerald-600 transition duration-150">Latest Reviews</a>
+                    <a href="#about" class="text-gray-600 hover:text-emerald-600 transition duration-150">About Us</a>
+                    <a href="#disclosure" class="text-gray-600 hover:text-emerald-600 transition duration-150">Disclosure</a>
+                </nav>
+
+                <!-- Mobile Menu Button (Hamburger Icon) -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-500 hover:text-emerald-600 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu Drawer (Hidden by default) -->
+        <div id="mobile-menu-drawer" class="hidden md:hidden bg-white shadow-lg pb-4">
+            <nav class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+                <a href="#products" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 w-full text-center">Top Picks</a>
+                <a href="#reviews" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 w-full text-center">Latest Reviews</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 w-full text-center">About Us</a>
+                <a href="#disclosure" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 w-full text-center">Disclosure</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-sky-50 pt-20 pb-16 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Gadgets That Don't Cost The <span class="text-emerald-600">Earth</span>
+                </h1>
+                <p class="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+                    Honest, in-depth reviews of the best sustainable and eco-friendly technology. Find durable, energy-efficient products that match your values.
+                </p>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="#products" class="cta-button inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-500 focus:ring-opacity-50">
+                        See Our Top Picks
+                    </a>
+                </div>
+            </div>
+            <!-- Background element for visual interest -->
+            <div class="absolute inset-x-0 bottom-0 h-1/2 bg-white blur-3xl opacity-50 transform skew-y-12"></div>
+        </section>
+
+        <!-- Product Showcase (The Core Affiliate Content) -->
+        <section id="products" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">
+                    Our Hand-Picked Sustainable Tech Essentials
+                </h2>
+
+                <div class="grid md:grid-cols-3 gap-10">
+
+                    <!-- Product Card 1 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 border border-gray-100">
+                        <img src="https://placehold.co/600x400/059669/ffffff?text=Solar+Charger+PRO" alt="Solar Powered Phone Charger" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900 mb-2">The Solar Charger PRO</h3>
+                            <p class="text-emerald-600 font-bold mb-4">BEST OVERALL PICK</p>
+                            <p class="text-gray-600 mb-4 text-sm">A lightweight, highly efficient solar power bank made with recycled plastics. Perfect for camping and emergency use.</p>
+                            
+                            <ul class="text-sm text-gray-700 mb-6 space-y-1">
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> 25,000mAh capacity</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> IP67 Waterproof Rating</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> 90% Recycled Casing</li>
+                            </ul>
+
+                            <!-- Affiliate Link CTA 1 -->
+                            <a href="https://affiliate.meesho.com/collection/MTA0NDA0MyUzQSUzQSUzQSUzQSUzQSUzQW5vcm1hbA" class="cta-button w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-sky-500 hover:bg-sky-600 shadow-md">
+                                Buy Now on Partner Site &rarr;
+                            </a>
+                            <p class="mt-3 text-xs text-gray-500 text-center">We may earn a commission from this link.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 border border-gray-100">
+                        <img src="https://placehold.co/600x400/38bdf8/000000?text=Bamboo+Keyboard" alt="Bamboo Wireless Keyboard" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900 mb-2">Bamboo Ergonomic Keyboard</h3>
+                            <p class="text-sky-500 font-bold mb-4">BEST FOR HOME OFFICE</p>
+                            <p class="text-gray-600 mb-4 text-sm">A beautiful, durable wireless keyboard crafted from ethically sourced, fast-growing bamboo. Low-impact computing.</p>
+
+                            <ul class="text-sm text-gray-700 mb-6 space-y-1">
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> Natural Bamboo Finish</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> Rechargeable Li-Ion Battery</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> Ergonomic Full-Size Layout</li>
+                            </ul>
+
+                            <!-- Affiliate Link CTA 2 -->
+                            <a href="#" class="cta-button w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-sky-500 hover:bg-sky-600 shadow-md">
+                                Buy Now on Partner Site &rarr;
+                            </a>
+                            <p class="mt-3 text-xs text-gray-500 text-center">We may earn a commission from this link.</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-[1.02] transition duration-300 border border-gray-100">
+                        <img src="https://placehold.co/600x400/10b981/ffffff?text=E-Reader" alt="Minimalist E-Reader" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-semibold text-gray-900 mb-2">The Minimalist E-Reader</h3>
+                            <p class="text-gray-500 font-bold mb-4">BEST FOR MINIMALISM</p>
+                            <p class="text-gray-600 mb-4 text-sm">Designed for distraction-free reading with a focus on longevity and repairability. A true investment in consumption reduction.</p>
+
+                            <ul class="text-sm text-gray-700 mb-6 space-y-1">
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> E-Ink Screen, Zero Glare</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> Open-Source Repair Guides</li>
+                                <li class="flex items-center"><span class="text-emerald-500 mr-2">&check;</span> Extended Battery Life</li>
+                            </ul>
+
+                            <!-- Affiliate Link CTA 3 -->
+                            <a href="#" class="cta-button w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-sky-500 hover:bg-sky-600 shadow-md">
+                                Buy Now on Partner Site &rarr;
+                            </a>
+                            <p class="mt-3 text-xs text-gray-500 text-center">We may earn a commission from this link.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials/Trust Section -->
+        <section id="trust" class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900 mb-10">
+                    Why Trust Eco-Choice?
+                </h2>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Trust Card 1 -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-t-4 border-emerald-500">
+                        <p class="text-xl font-medium text-gray-700 mb-4">"The reviews here are incredibly thorough. I bought the Solar Charger PRO based on their analysis and it's perfect."</p>
+                        <p class="text-sm font-semibold text-gray-900">- Alex R. (Verified Buyer)</p>
+                    </div>
+
+                    <!-- Trust Card 2 -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-t-4 border-emerald-500">
+                        <p class="text-xl font-medium text-gray-700 mb-4">"Finally, a tech site that focuses on repairability and long-term value, not just the latest trend. Essential reading."</p>
+                        <p class="text-sm font-semibold text-gray-900">- Sarah J. (Sustainability Blogger)</p>
+                    </div>
+
+                    <!-- Trust Card 3 -->
+                    <div class="p-6 bg-white rounded-xl shadow-lg border-t-4 border-emerald-500">
+                        <p class="text-xl font-medium text-gray-700 mb-4">"The team clearly puts the product through real-world tests. Their battery life estimates were spot-on."</p>
+                        <p class="text-sm font-semibold text-gray-900">- Ben K. (Outdoor Enthusiast)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Latest Reviews / Content Section -->
+        <section id="reviews" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-extrabold text-gray-900 text-center mb-12">
+                    Latest In-Depth Reviews & Guides
+                </h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Review Article 1 -->
+                    <div class="rounded-xl shadow-md overflow-hidden bg-gray-50 hover:shadow-xl transition duration-300">
+                        <img src="https://placehold.co/600x300/f87171/ffffff?text=Recycled+Laptop" alt="Review of Recycled Laptop" class="w-full h-48 object-cover">
+                        <div class="p-5">
+                            <span class="text-xs font-semibold uppercase text-sky-600">Laptop Review</span>
+                            <h4 class="mt-2 text-xl font-semibold text-gray-900">The 100% Recycled Laptop: A Full Breakdown</h4>
+                            <p class="mt-2 text-gray-600 text-sm">We test the performance, repairability, and lifecycle of the first completely closed-loop computing device.</p>
+                            <a href="#" class="mt-4 inline-block text-emerald-600 font-medium hover:underline">Read Full Review &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Review Article 2 -->
+                    <div class="rounded-xl shadow-md overflow-hidden bg-gray-50 hover:shadow-xl transition duration-300">
+                        <img src="https://placehold.co/600x300/34d399/ffffff?text=E-Waste+Guide" alt="Guide to E-Waste" class="w-full h-48 object-cover">
+                        <div class="p-5">
+                            <span class="text-xs font-semibold uppercase text-sky-600">Guide</span>
+                            <h4 class="mt-2 text-xl font-semibold text-gray-900">How to Responsibly Dispose of E-Waste (2025 Guide)</h4>
+                            <p class="mt-2 text-gray-600 text-sm">Don't throw it out! Find local programs and mail-in recycling options for all your old electronics.</p>
+                            <a href="#" class="mt-4 inline-block text-emerald-600 font-medium hover:underline">Read Full Guide &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Review Article 3 -->
+                    <div class="rounded-xl shadow-md overflow-hidden bg-gray-50 hover:shadow-xl transition duration-300 md:col-span-1 lg:col-span-1">
+                        <img src="https://placehold.co/600x300/60a5fa/ffffff?text=Smart+Home" alt="Smart Home Review" class="w-full h-48 object-cover">
+                        <div class="p-5">
+                            <span class="text-xs font-semibold uppercase text-sky-600">Smart Home</span>
+                            <h4 class="mt-2 text-xl font-semibold text-gray-900">Comparing Low-Power Smart Home Hubs</h4>
+                            <p class="mt-2 text-gray-600 text-sm">We compare three new hubs focused on minimal energy draw and local processing power.</p>
+                            <a href="#" class="mt-4 inline-block text-emerald-600 font-medium hover:underline">Read Full Review &rarr;</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Column 1: Brand -->
+                <div>
+                    <h5 class="text-xl font-bold mb-3 text-emerald-400">EcoChoice</h5>
+                    <p class="text-sm text-gray-400">Curating the best in ethical and sustainable technology since 2024.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-3">Site Links</h5>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#products" class="hover:text-emerald-400 transition duration-150">Top Products</a></li>
+                        <li><a href="#reviews" class="hover:text-emerald-400 transition duration-150">All Reviews</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition duration-150">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Legal -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-3">Legal</h5>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#" class="hover:text-emerald-400 transition duration-150">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-emerald-400 transition duration-150">Terms of Service</a></li>
+                        <li><a href="#disclosure" class="hover:text-emerald-400 transition duration-150">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Social -->
+                <div>
+                    <h5 class="text-lg font-semibold mb-3">Follow Us</h5>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-emerald-400 transition duration-150">
+                            <!-- Social Icon (Placeholder) -->
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.008c0 4.417 2.865 8.16 6.839 9.504.5.092.682-.218.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.371-1.34-3.371-1.34-.454-1.15-.11-1.459-.083-1.488.314-.215.1-.198.073-.198-1.879 1.487-2.308-1.077-2.308-1.077-1.536-.976-1.986-1.23-1.986-1.23-1.503-.974.113-.956.113-.956 1.637.115 2.495 1.68 2.495 1.68 1.45 2.483 3.801 1.77 4.734 1.353.149-1.052.569-1.77.104-1.954-3.613-.414-7.4-1.803-7.4-8.084 0-1.785.64-3.245 1.688-4.381-.17-.417-.732-2.074.161-4.314 0 0 1.373-.438 4.5 1.678 1.3-.362 2.687-.543 4.075-.549 1.387.006 2.775.187 4.075.549 3.125-2.116 4.5-1.678 4.5-1.678.895 2.24.332 3.898.16 4.314 1.05.772 1.687 2.23 1.687 4.381 0 6.297-3.79 7.665-7.412 8.074.577.498.924 1.48.924 2.98 0 2.147-.019 3.879-.019 4.418 0 .265.18.577.688.484C21.137 20.17 24 16.425 24 12.008 24 6.484 19.522 2 14 2H12z"/></svg>
+                        </a>
+                        <!-- Add other social icons (e.g., Twitter/X) -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 pt-6 border-t border-gray-700">
+                <!-- Crucial Affiliate Disclosure -->
+                <p id="disclosure" class="text-xs text-center text-red-300 italic max-w-4xl mx-auto">
+                    **Affiliate Disclosure:** This website contains affiliate links. If you click on one of the product links and make a purchase, we may receive a small commission at **no extra cost to you**. This helps support our research and testing. We only recommend products we truly believe in.
+                </p>
+                <p class="mt-4 text-sm text-center text-gray-400">&copy; 2024 EcoChoice Gadgets. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const drawer = document.getElementById('mobile-menu-drawer');
+            drawer.classList.toggle('hidden');
+        });
+
+        // Hide mobile menu after clicking a link
+        document.querySelectorAll('#mobile-menu-drawer a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu-drawer').classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
